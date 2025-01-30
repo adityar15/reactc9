@@ -3,6 +3,7 @@ import Heading from './components/Heading'
 import Card from './components/Card'
 import Counter from './components/Counter'
 import GithubSearch from './components/GithubSearch'
+import ProductList from './components/ProductList'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
 
       <Counter />
       <GithubSearch />
+      <ProductList />
 
     </div>
   )
