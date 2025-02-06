@@ -5,6 +5,7 @@ import GithubSearch from './pages/GithubSearch'
 import Counter from './pages/Counter'
 import Products from './pages/Products'
 import Layout from './components/Layout'
+import Mortgage from './pages/Mortgage'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route index element={<GithubSearch />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/mortgage" element={<Mortgage />} />
       </Route>
 
     </Routes>
